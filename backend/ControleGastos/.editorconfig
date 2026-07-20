@@ -1,0 +1,15 @@
+root = true
+
+[*.cs]
+# Padrões de Indentação
+indent_style = space
+indent_size = 4
+end_of_line = crlf
+
+# Organização de Usings
+dotnet_sort_system_directives_first = true
+dotnet_separate_import_directive_groups = true
+
+# Estilo de Código do C#
+csharp_style_expression_bodied_methods = true:suggestion
+csharp_style_var_for_built_in_types = true:suggestion
